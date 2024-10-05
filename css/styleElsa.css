@@ -1,0 +1,230 @@
+
+body {
+    margin-top: 12%;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-image: url('../img/bgPages.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: 70px;
+    
+}
+
+.modele-container {
+    background-color: #021C3F;
+    width: 500px;
+    height: 400px;
+    border-radius: 20%;
+    border-bottom-left-radius: 0%;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    border: none;
+    transition-duration: 0.2s;
+}
+
+.modele-container:hover {
+    width: 550px;
+    height: 450px;
+}
+
+.modele-container:hover img{
+    width: 290px;
+    transition-duration: 0.25s;
+}
+.NextBtn{
+    border-radius: 30px ;
+    background-color: #2AE8FB;
+    border-color: #2AE8FB;
+    color: white;
+    padding: 4px;
+    width: 200px;
+    height: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+    border: #2AE8FB 0.1rem solid;
+    font-size: 16px;
+   
+}
+.NextBtn:hover{
+    cursor: pointer;
+    background-color: #021C3F;
+    border: #021C3F 0.1rem solid;
+}
+
+/* .modele-container:hover::before img{
+    width: 290px;
+    transition-duration: 0.25s;
+}
+
+.modele-container:hover::after img{
+    width: 290px;
+    transition-duration: 0.25s;
+} */
+
+.modele {
+    font-size: 40px;
+    color: white;
+    margin-left: 65%;
+    margin-top: 10%;
+}
+
+img {
+    width: 250px;
+    position: absolute;
+    margin-left: 60px;
+    border-radius: 5%;
+}
+
+
+/* DESIGN CIRCLES */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 70px;
+}
+
+.circle-container {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+    background-color: white;
+}
+
+
+/* HOVER THE BUTTON DESIGN */
+.circle-container:hover:nth-child(1) {
+    background-color: #143b6e;
+    border-radius: 50px;
+}
+.circle-container:hover:nth-child(2) {
+    background-color: #b99b8a;
+    border-radius: 50px;
+}
+.circle-container:hover:nth-child(3) {
+    background-color: #593f2d;
+    border-radius: 50px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* 3 FIRST CIRCLES */
+.circle-container:nth-child(1) .circle:nth-child(1) {
+    background-color: #021C3F;
+    border: 0.2px solid black;
+}
+.circle-container:nth-child(1) .circle:nth-child(2) {
+    background-color: #2AE8FB;
+    border: 0.2px solid black;
+}
+.circle-container:nth-child(1) .circle:nth-child(3) {
+    background-color: white;
+    border: 0.2px solid black;
+}
+
+
+/* 3 SECOND CIRCLES */
+.circle-container:nth-child(2) .circle:nth-child(1) {
+    background-color: #DFD1C9;
+    border: 0.2px solid black;
+}
+.circle-container:nth-child(2) .circle:nth-child(2) {
+    background-color: #FAF8F6;
+    border: 0.2px solid black;
+}
+.circle-container:nth-child(2) .circle:nth-child(3) {
+    background-color: #D189B4;
+    border: 0.2px solid black;
+}
+
+/* 3 LAST CIRCLES */
+.circle-container:nth-child(3) .circle:nth-child(1) {
+    background-color: #82614A;
+    border: 0.2px solid black;
+}
+.circle-container:nth-child(3) .circle:nth-child(2) {
+    background-color: #9F825B;
+    border: 0.2px solid black;
+}
+.circle-container:nth-child(3) .circle:nth-child(3) {
+    background-color: #DAC09B;
+    border: 0.2px solid black;
+}
+
+
+/* PAGE PROFIL */
+.container-line1 {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+
+}
+  
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    height: 1000px;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f4f4f4; /* Gris clair comme fond */
+    border-radius: 30px;
+}
+
+.form-container div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+
+/* Ajout de style pour les champs radio */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style pour le bouton d'ajout de photo */
+#file {
+    border: 0.2px solid black;
+    background-color: silver;
+    color: white;
+    align-content: center;
+    display: flex;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 30px;
+    padding-left: 15px;
+    width: 265px;
+    height: 200px;
+}

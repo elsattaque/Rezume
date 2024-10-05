@@ -1,0 +1,170 @@
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+#créer{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 422.0533px;
+}
+
+.logo-esgi{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.container-first{
+    width: 400px;
+    height: 150px;
+    margin-right: 250px;
+    transform: scale(1.7);
+    margin-top: 170px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.btn{
+    border-radius: 30px ;
+    background-color: #2AE8FB;
+    border-color: #2AE8FB;
+    color: white;
+    padding: 4px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+    border: #2AE8FB 0.1rem solid;
+   
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #021C3F;
+    border: #021C3F 0.1rem solid;
+}
+
+#réaliser{
+    display: flex;
+    justify-content: center;
+    height: 222.05330000000001px;
+    width: 800px;
+    margin-left: 300px;
+}
+#images{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 420px;
+    top: 300rem;
+    padding-top: 50px;
+    height: 420px;
+    width: 700px;
+    margin-left: 400px;
+
+}
+.container-second{
+    justify-content: center;
+    height: 200px;
+    top: 700px;
+    width: 200px;
+    font-size: 22px;
+
+}
+.cercles{
+    width: 350px;
+    height: 650px;
+    position: absolute;
+    left: 0%;
+    margin: 0%;
+    margin-top: 0px;
+    top: 800px;
+}
+
+h1{
+    color: #021C3F;
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+    font-weight: 200;
+}
+
+.pocket-1{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+    font-weight: 200;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+h2{
+    display: inline-block;
+    color: #021C3F;
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+}
+.hafsa-pic{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    margin-left: 200px;
+    border-radius: 2rem;
+    margin-left: 0%;
+
+}
+.elsa-pic{
+    margin-left: 0%;
+    margin-right: 0px;
+    display: flex;
+    height: 400px;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.img-container{
+    border-radius: 2rem;
+    width: 150px;
+    padding-left: 0px;
+    height: 150px;
+}
+
+.paragraphe{
+    width: 800px;
+    padding-left: 100px;
+    display: inline-block;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+}
+.bloc-miroir{
+    flex: 0 0 38vw;
+    height: 500px;
+    width: 1000px;
+    background-color: #021C3F;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 150px;
+    margin-top: 300px;
+    border-radius: 200px 40px 63px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+
+
+
+
+

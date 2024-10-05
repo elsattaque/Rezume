@@ -1,0 +1,152 @@
+.title{
+    text-align: center;
+    margin-top: 0%;
+    color: #0d3b78;
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+    font-weight: 200;
+}
+
+.form-section {
+    display: inline-block;
+    width: 1000px;
+    margin: 0 0 30px 100px ;
+    padding: 35px 25px;
+    border-radius: 2rem;
+    background: white;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.form-section__header-text{
+    display: flex;
+    margin: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 0 27px;
+    box-shadow: 0 0 43px -1px white;
+    align-items: center;
+}
+
+.form-section__fieldset .form__field-group{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+}
+
+
+span{
+    color: #0d3b78;
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+}
+
+.form-section__header-icon {
+    color: rgb(13, 59, 120);
+    width: 17px;
+}
+
+.button--save-section-item{
+    margin-top: 10px;
+    left: 1000px;
+}
+#profile_editor{
+    display: block;
+    width: 909px;
+    height: 76px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#recherche_editor{
+    display: block;
+    width: 909px;
+    height: 76px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+#education_editor{
+    display: block;
+    width: 909px;
+    height: 76px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.form__fields-group--buttons{
+    margin-left: 850px;
+    width: 100px;
+}
+.button--add-section-item-1{
+    margin-left: 769px;
+    margin-top: 10px;
+}
+.button--add-section-item-0{
+    margin-left: 774px;
+    margin-top: 10px;
+}
+.button--add-section-item-2{
+    margin-left: 762px;
+    margin-top: 10px;
+}
+.button--add-section-item-3{
+    margin-left: 795px;
+    margin-top: 10px;
+}
+::placeholder{
+    font-size: 16px;
+}
+input{   
+    width: 909px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.span-title{
+    
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+label{
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+    color: #032249
+}
+.form-select-custom{
+    margin-left: 50px;
+    height: 45px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+.form__select-element{
+    margin-left: 102px;
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.NextBtn{
+    border-radius: 30px ;
+    background-color: #2AE8FB;
+    border-color: #2AE8FB;
+    color: white;
+    padding: 4px;
+    width: 200px;
+    height: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: 'Playfair Display', serif;
+    font-style:inherit;
+    border: #2AE8FB 0.1rem solid;
+    font-size: 16px;
+    margin-left: 30%;
+   
+}
+.NextBtn:hover{
+    cursor: pointer;
+    background-color: #021C3F;
+    border: #021C3F 0.1rem solid;
+}
